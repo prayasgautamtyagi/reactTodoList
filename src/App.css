@@ -1,0 +1,59 @@
+.Container {
+  margin: 10px auto;
+  border: 1px solid grey;
+  width: 400px;
+  background-color: azure;
+  border-radius: 2px;
+}
+
+.AddInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: auto;
+  height: 40px;
+  background-color: aliceblue;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.AddInput button{
+  float: right;
+  height: 40px;
+  width: 40px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  color:red;
+  font-size: 20px;
+  background-color: white;
+  outline: none;
+}
+
+.AddInput span{
+  margin: 10px;
+  font-size: 25px;
+}
+
+.UserInput {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.UserInput Button{
+  height: 40px;
+  width: 55px;
+  font-size: 20px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+.UserInput input{
+  height: 40px;
+  width: 310px;
+  font-size: 25px;
+  padding-left: 5px;
+}
