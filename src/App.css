@@ -2,8 +2,10 @@
   margin: 10px auto;
   border: 1px solid grey;
   width: 400px;
-  background-color: azure;
-  border-radius: 2px;
+  background-color: #00b894;
+  border-radius: 5px;
+  box-shadow: 0 0 20px #000;
+  user-select: none;
 }
 
 .AddInput {
@@ -11,23 +13,23 @@
   justify-content: space-between;
   align-items: center;
   align-self: auto;
-  height: 40px;
-  background-color: aliceblue;
+  height: 50px;
+  background-color: #e6ecf3;
   border: 1px solid grey;
-  border-radius: 2px;
+  border-radius: 5px;
   margin: 10px;
 }
 
 .AddInput button{
   float: right;
-  height: 40px;
-  width: 40px;
-  border-radius: 2px;
+  height: 50px;
+  width: 50px;
   border: 1px solid grey;
   color:red;
-  font-size: 20px;
+  font-size: 30px;
   background-color: white;
   outline: none;
+  border-radius: 5px;
 }
 
 .AddInput span{
@@ -56,4 +58,50 @@
   width: 310px;
   font-size: 25px;
   padding-left: 5px;
+}
+
+.ItemFilters {
+ height: 40px;
+ margin: 10px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.ItemFilters button {
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 2px;
+ }
+
+ .toggleOnComplete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: auto;
+  height: 50px;
+  background-color: #e6ecf3;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.toggleOnComplete button{
+  float: right;
+  height: 50px;
+  width: 50px;
+  border: 1px solid grey;
+  color:red;
+  font-size: 30px;
+  background-color: white;
+  outline: none;
+  border-radius: 5px;
+}
+
+.toggleOnComplete span{
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: line-through;
 }
